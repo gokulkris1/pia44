@@ -1,0 +1,25 @@
+personality: dakota
+voice_profile: dakota
+
+engine: gpt4o
+
+skills:
+  reminders: true
+  web_search: true
+  summarizer: true
+  weather: true
+  calendar: true
+  notes: true
+
+sensors:
+  use_ip_location: true
+  use_gps_when_available: true
+  location_memory: true
+
+smart_home:
+  enabled: true
+  default_webhook: true
+
+memory:
+  log_conversations: true
+  summarize_daily: true
